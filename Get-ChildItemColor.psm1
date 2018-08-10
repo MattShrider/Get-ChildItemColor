@@ -4,8 +4,8 @@ if ([System.Enum]::IsDefined([System.ConsoleColor], 1) -eq "False") { $OriginalF
 $CompressedList = @(".7z", ".gz", ".rar", ".tar", ".zip")
 $ExecutableList = @(".exe", ".bat", ".cmd", ".py", ".pl", ".ps1",
                     ".psm1", ".vbs", ".rb", ".reg", ".fsx", ".sh")
-$DllPdbList = @(".dll", ".pdb")
-$TextList = @(".csv", ".log", ".markdown", ".rst", ".txt")
+$DllPdbList = @(".dll", ".pdb", "~")
+$TextList = @(".csv", ".log", ".markdown", ".rst", ".txt", ".js", ".ts", ".jsx", ".scss")
 $ConfigsList = @(".cfg", ".conf", ".config", ".ini", ".json", ".gitignore"
                  ".gitattributes", ".npmignore", ".npmrc", ".tfignore", ".conf.js",
                  ".proj", ".config.js")
